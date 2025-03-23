@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: blanchedalmond;
+  margin: 0 auto;
+}
+
+h1,h2,p,ul{
+  text-align: center;
+}
+
+h1{
+  color:rgb(46, 1, 46);
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: chocolate;
+}
+
+.subtitle{
+  color: darkred;
+  border: 3px solid rgb(255, 183, 0);
+  border-radius: 15%;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.notes {
+  color: rgb(140, 61, 61);
+}
+
+.books-notes{
+  padding: 46%;
+  color: #000;
+}
+
+.italic{
+font-style: italic;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.through{
+  text-decoration: line-through;
+}
+
+.book-image{
+  text-align: center;
+}
+
+.table-books{
+  margin: 0 auto;
+  border: 5px solid gold;
+  background-color: darkslateblue;
+  width: 80%;
+  left: 10%;
+  margin-top: 20%;
+}
+
+.table-list{
+  position: fixed;
+  top: 0;;
+  border: 5px solid gold;
+  background-color: darkslateblue;
+  width: 80%;
+  left: 10%;
+  opacity: 80%;
+}
+
+td{
+  border: 3px solid gold;
+  border-radius: 5%;
+}
+
+.subtitle-book1,.book-image1,.text-book1{
+  background-color: darkred;
+  color: black;
+}
+
+.subtitle-book2,.book-image2,.text-book2{
+  background-color: darkgreen;
+  color: black;
+}
+
+.subtitle-book3,.book-image3,.text-book3{
+  background-color: rgb(255, 213, 0);
+  color: white;
+}
+
+.subtitle-book4,.book-image4,.text-book4{
+  background-color:darkblue;
+  color: white;
+}
+
+.text-book1{
+  background-image: url(../images/grifindor.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-book2{
+  background-image: url(../images/slizerin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-book3{
+  background-image: url(../images/puffendui.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-book4{
+  background-image: url(../images/kogtevran.jpg);
+  background-size: cover;
+  background-position: center;
+}
